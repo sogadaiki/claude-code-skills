@@ -40,10 +40,12 @@ cp -r claude-code-skills/skills/review ~/.claude/skills/
 
 ### 2. リファレンス学習 — `ingest-references`
 
-**自分で読まなくていい。** ブラウザ拡張(pagegrab等)でページをMD保存 → `/ingest-references` で一括処理。
+**自分で読まなくていい。** Chrome拡張 [pagegrab](https://github.com/sogadaiki/pagegrab) でWebページをワンクリックMarkdown保存 → `/ingest-references` で一括処理。
 AIが読んで、トリアージして、ナレッジに分類して、必要ならIssueまで作ってくれる。
 
 インプット量を10倍にできる仕組み。人間は「何を読むか」だけ選べばいい。
+
+> [pagegrab](https://github.com/sogadaiki/pagegrab) — ワンクリックでWebページのテキスト(Markdown)+画像をローカル保存するChrome拡張。X(Twitter)の長文記事にも対応。
 
 ### 3. 8割計画・2割実装 — `plan`
 
