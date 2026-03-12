@@ -89,7 +89,7 @@ SPEAKER_NAME="{author_name}" SPEAKER_TITLE="{title}" \
 ```bash
 node <YOUR_PROJECT_ROOT>/scripts/discord-notify.mjs \
   --channel team \
-  --persona soga \
+  --persona <your-name> \
   --message "動画編集完了: $(basename $OUTPUT), テロップ${COUNT}個"
 ```
 

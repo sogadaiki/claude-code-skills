@@ -14,7 +14,7 @@
 4. 参照画像は送信前に `sips -Z 1024` でリサイズ（8MB超はpayload過大）
 5. Gemini API (gemini-2.0-flash-exp-image-generation) でimage-to-image生成
 6. 出力: `content/images/YYYY-MM-DD.png` (明日の日付)
-7. APIキー: `security find-generic-password -s "GEMINI_API_KEY" -a "claude-ops" -w` (macOS Keychain)
+7. APIキー: `$GEMINI_API_KEY`  # macOS: `security find-generic-password -s "GEMINI_API_KEY" -a "<YOUR_ACCOUNT>" -w`
 
 ## 品質チェック
 

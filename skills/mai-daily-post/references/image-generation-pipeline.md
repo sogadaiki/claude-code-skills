@@ -45,7 +45,7 @@ REF_BODY=$(base64 < /tmp/ref-body.png)
 #    動作確認済みテンプレートは一文字も変えない
 
 # 3. Gemini API送信（参照画像2-3枚 + テキストプロンプト）
-GEMINI_API_KEY=$(security find-generic-password -s "GEMINI_API_KEY" -a "claude-ops" -w)
+GEMINI_API_KEY=$GEMINI_API_KEY  # macOS: security find-generic-password -s "GEMINI_API_KEY" -a "<YOUR_ACCOUNT>" -w
 
 PAYLOAD=$(jq -n \
   --arg face "$REF_FACE" \

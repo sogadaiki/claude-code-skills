@@ -59,7 +59,7 @@ cp -r claude-code-skills/skills/review ~/.claude/skills/
 | **[deep-research](skills/deep-research/)** | エンタープライズ級リサーチ。10+ソース・引用追跡・検証付き | `/deep-research Next.js vs Remix 2026` |
 | **[business-review](skills/business-review/)** | 事業計画書の多角レビュー（戦略/財務/マーケ/法務並列分析） | `/business-review 事業計画書.pdf` |
 | **[weekly-review](skills/weekly-review/)** | 週次ビジネスレビュー。KPI確認+来週アクション策定 | `/weekly-review` |
-| **[client-report](skills/client-report/)** | クライアント月次レポート。KPI・LINE・SNS・広告の数値まとめ | `/client-report padawan 2026-03` |
+| **[client-report](skills/client-report/)** | クライアント月次レポート。KPI・LINE・SNS・広告の数値まとめ | `/client-report <client-slug> 2026-03` |
 
 ### プロジェクト管理 (5)
 

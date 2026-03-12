@@ -217,8 +217,8 @@ Phase 2 のKPI分析 + Phase 3.1 のマーケティング提案を統合し、HT
 ### Step 3.3: Google Driveアップロード
 
 Google Workspace MCPでクライアントフォルダにアップロード:
-- パダワン: フォルダID `<YOUR_DRIVE_FOLDER_ID>`
-- フジ創: フォルダID `<YOUR_DRIVE_FOLDER_ID>`
+- クライアントA: フォルダID `<YOUR_DRIVE_FOLDER_ID>`
+- クライアントB: フォルダID `<YOUR_DRIVE_FOLDER_ID>`
 - client-c: フォルダID `<YOUR_DRIVE_FOLDER_ID>`
 
 ### Step 3.4: 完了報告

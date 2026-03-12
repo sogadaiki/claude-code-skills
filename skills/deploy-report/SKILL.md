@@ -119,7 +119,7 @@ https://<YOUR_PROJECT>.pages.dev/{slug}/report-*.html ← 各レポート
 - 他プロジェクトの既存ファイルも含めて全体がデプロイされる（既存は維持される）
 - 元のプロジェクトディレクトリのHTMLは残す（コピーであり移動ではない）
 - wranglerが古い場合は `npx wrangler@latest` を使用
-- 環境変数 `CLOUDFLARE_API_TOKEN` はKeychainから取得: `security find-generic-password -s "CLOUDFLARE_API_TOKEN" -a "claude-ops" -w`
+- 環境変数 `CLOUDFLARE_API_TOKEN` が必要  # macOS: `security find-generic-password -s "CLOUDFLARE_API_TOKEN" -a "<YOUR_ACCOUNT>" -w`
 
 ## 使い方
 

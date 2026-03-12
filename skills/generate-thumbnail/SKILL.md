@@ -135,7 +135,7 @@ Gemini APIキーは macOS Keychain から取得する。
 #### 画像生成 + ダウンロード（1コマンドで実行）
 
 ```bash
-GEMINI_KEY=$(security find-generic-password -s "GEMINI_API_KEY" -a "claude-ops" -w) && \
+GEMINI_KEY=$GEMINI_API_KEY && \  # macOS: security find-generic-password -s "GEMINI_API_KEY" -a "<YOUR_ACCOUNT>" -w
 RESPONSE=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent?key=${GEMINI_KEY}" \
   -H "Content-Type: application/json" \
   -d '{
